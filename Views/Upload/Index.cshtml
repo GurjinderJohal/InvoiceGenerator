@@ -1,0 +1,20 @@
+﻿@model invoiceagent.Models.FileUploadModel
+@{
+    ViewData["Title"] = "Invoice Generator";
+}
+<h1>Invoice Generator</h1>
+<p>Upload the FMP to generate the invoice</p>
+<form asp-action="Index" method="post" enctype="multipart/form-data"> 
+    <input type="file" asp-for="UploadedFile" />  
+    <span asp-validation-formaction="UploadedFile"></span>
+    <br />
+    <br />
+    <button type="submit">Create Invoices</button>
+</form>
+
+@if(ViewBag.Message != null)
+{
+    <div style="color:green">@ViewBag.Message</div>
+
+}
+

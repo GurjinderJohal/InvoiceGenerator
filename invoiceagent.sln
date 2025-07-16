@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "invoiceagent", "invoiceagent.csproj", "{CAD9954E-2FB9-BBE9-7514-81320B3ADB3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAD9954E-2FB9-BBE9-7514-81320B3ADB3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD9954E-2FB9-BBE9-7514-81320B3ADB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD9954E-2FB9-BBE9-7514-81320B3ADB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD9954E-2FB9-BBE9-7514-81320B3ADB3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C52255BD-87BD-4E35-AF26-81B5ED8F4303}
+	EndGlobalSection
+EndGlobal
